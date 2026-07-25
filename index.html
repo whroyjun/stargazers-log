@@ -1,11 +1,24 @@
-<!DOCTYPE html>
+<!-- index.html - Starred repositories page -->
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title>Stargazers log</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Starred Repositories — stargazers-log</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Stargazers log</h1>
-    <p>A log of the repositories I've starred.</p>
+    <main class="container">
+      <h1>Starred repositories</h1>
+      <p class="subtitle">A simple log of repositories I've starred. Data is loaded from <code>events.json</code>.</p>
+
+      <ul id="repo-list" class="repo-list" aria-live="polite">
+        <li>Loading…</li>
+      </ul>
+
+      <p class="footer-note">This page is generated locally in the browser from <code>events.json</code>. Replace or extend that file to change the list.</p>
+    </main>
+
+    <script src="script.js"></script>
   </body>
 </html>
