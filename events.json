@@ -1,5 +1,29 @@
 [
-  { "name": "octocat/Hello-World", "starred": "2024-01-15" },
-  { "name": "github/docs", "starred": "2024-02-02" },
-  { "name": "octo-org/octo-repo", "starred": "2024-03-21" }
+  {
+    "id": 1,
+    "name": "go",
+    "owner": "golang",
+    "url": "https://github.com/golang/go",
+    "description": "The Go programming language",
+    "language": "Go",
+    "starred_at": "2026-07-20T14:32:00Z"
+  },
+  {
+    "id": 2,
+    "name": "deno",
+    "owner": "denoland",
+    "url": "https://github.com/denoland/deno",
+    "description": "A secure JavaScript/TypeScript runtime",
+    "language": "TypeScript",
+    "starred_at": "2026-06-15T09:10:00Z"
+  },
+  {
+    "id": 3,
+    "name": "react",
+    "owner": "facebook",
+    "url": "https://github.com/facebook/react",
+    "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+    "language": "JavaScript",
+    "starred_at": "2025-12-01T18:45:00Z"
+  }
 ]
